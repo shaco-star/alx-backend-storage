@@ -1,0 +1,7 @@
+-- script for creating user
+DROP TABLE IF EXISTS users
+CREATE TABLE users (
+	id NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	email VARCHAR(255) NOT NULL UNIQUE,
+	NAME VARCHAR(255)
+);
